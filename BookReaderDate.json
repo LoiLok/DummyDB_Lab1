@@ -1,0 +1,25 @@
+{
+ "name": "ReaderBookDate",
+ "columns": [
+   {
+    "name": "BookID",
+    "type": "int",
+    "isPrimary": true
+   },
+   {
+    "name": "ReaderID",
+    "type": "int",
+    "isPrimary": true
+   },
+   {
+    "name": "TakeDate",
+    "type": "datetime",
+    "isPrimary": false
+   },
+   {
+    "name": "ReturnDate",
+    "type": "datetime",
+    "isPrimary": false
+   }
+  ]
+}
